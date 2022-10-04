@@ -8,77 +8,106 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="main">
-    <div class="content">
-      <section>
-        <div id="txt1">
-          <img src="Besant_logo.jpg" alt="Besant_logo" title="Besant Technologies">
-          Besant Technologies
-        </div>
-      </section>
-    </div>
-    <div>
-      <section class="date">
-        <div id="eform"><label class="txt" for="">Enquriy Form</label></div>
-        <div id="date"><label class="txt" for="">Date: </label><input type="date" name="" id=""></div>
-      </section>
-    </div>
-    <div>
-      <section class="details">
-        <div class="txt2" id="name"><label class="txt" for="">Name:</label><input type="text" id="fname" class="box"></div>
-        <div class="txt2" id="no"><label class="txt" for="">Mobile No:</label><input type="number" id="mno" class="box"><label id="mno1" class="txt" > Alternate No:</label><input type="text"  class="box"></div>
-        <div class="txt2" id="mail"><label class="txt" for="">Email ID:</label><input type="email" id="mail" class="box"></div>
-        <div class="txt2" id="locate"><label class="txt" for="">Location:</label><input type="text" id="location" class="box box1"></div>
-        <div class="txt2" id="cour"><label class="txt" for="">Course Interested:</label><input type="text" id="course" class="box box1"></div>
-        <div class="txt2" id="batch"><label class="txt" for="">Batch Prefered:</label><input type="checkbox" name="batch" id="chk-1"><lable for="chk-1">Weekdays </lable><input type="checkbox" name="batch" id="chk-2"><lable for="chk-2">Weekend</lable></div>
-        <div class="txt2">
-          <input type="checkbox" name="type" id="ct1"><lable for="ct1">Fresher</lable>
-          <input type="checkbox" name="type" id="ct2"><lable for="ct2">Experience</lable>
-          <input type="checkbox" name="type" id="ct3"><lable for="ct3">IT</lable>
-          <input type="checkbox" name="type" id="ct4"><lable for="ct4">NON IT</lable>
-          <input type="checkbox" name="type" id="ct5"><lable for="ct5">Career Break</lable>
-        </div>
-        <div class="txt2">
-          <label class="txt" for="">How You Came To Know us:</label>
-          <input type="checkbox" name="know" id="kt1"><lable for="kt1">Website</lable>
-          <input type="checkbox" name="know" id="kt2"><lable for="kt2">Google Search</lable>
-          <input type="checkbox" name="know" id="kt3"><lable for="kt3">Ads</lable>
-          <input type="checkbox" name="know" id="kt4"><lable for="kt4">Reference</lable>
-        </div>
-        <div><label class="txt" for="">Contacted Person From Besant Technologies:</label><input type="text" id="contact" class="box box3"></div>
-      </section>
-    </div>
-    <div>
-      <section class="details">
-        <div class="txt2">
-          <label class="txt" for="">Are You Interested As Become a Trainer </label>
-          <input type="checkbox" id="yes"><lable for="yes">Yes  </lable>
-          <input type="checkbox" id="no"><lable for="no">No</lable>
-        </div>
-        <div class="txt2">
-          <label class="txt" for="">Domain:</label><input type="text" id="domain" class="box box3">
-          <label class="txt" for="">Year Of Experience:</label><input type="text" id="experience" class="box box2">
-        </div>
-        <div class="txt2">
-          <label class="txt" for="">Company Name:</label><input type="text" id="cname" class="box box1">
-        </div>
-      </section>
-    </div>
-    <div>
-      <section>
-        <div class="txt3">Office use only</div>
-        <div class="txt2">
-          <label class="txt" for="">Counselor:</label><input type="text" id="counselor" class="box box3">
-          <label class="txt" for="">Fees:</label><input type="text" id="fees" class="box box2">
-        </div>
-        <div class="txt2">
-          <label class="txt" for="">Status:</label><input type="text" id="status" class="box box1">
-        </div>
-        <div class="txt2">
-          <label class="txt" for="">Comments:</label><input type="text" id="comments" class="box box1">
-        </div>
-      </section>
-    </div>
+  <div>
+    <form action="">
+      <div class="head">
+        <img src="Besant_logo.jpg" alt="Besant_logo" align="center">
+        Besant Technologies
+      </div>
+      <div id="p1">
+        <label>Enquiry Form</label>
+        <label>Date: <input type="date" id="date"></label>
+      </div>
+      <div class="form">
+        <section class="filed1">
+          <div class="fileds">
+            <label for="name">Name:</label>
+            <input type="text" id="name"/>
+          </div>
+          <div class="fileds side">
+            <div class="mobile">
+              <label for="mno">Mobile No:</label>
+              <input type="text" id="mno"/>
+              <label for="amno">Alternate No:</label>
+              <input type="text" id="amno">
+            </div>
+          </div>
+          <div class="fileds">
+            <label for="mail">Email ID:</label>
+            <input type="email" id="mail"/>
+          </div>
+          <div class="fileds">
+            <label for="location">Location:</label>
+            <input type="text" id="location">
+          </div>
+          <div class="fileds">
+            <label for="course">Course Interested:</label>
+            <input type="text" id="course">
+          </div>
+          <div class="fileds">
+            <label>Batch Prefered:</label>
+            <input type="checkbox" name="batch" id="chk1">Weekdays 
+            <input type="checkbox" name="batch" id="chk2">Weekend
+          </div>
+          <div class="fileds">
+            <input type="checkbox" name="batch" id="chk3">Fresher 
+            <input type="checkbox" name="batch" id="chk4">Experience 
+            <input type="checkbox" name="batch" id="chk5">IT 
+            <input type="checkbox" name="batch" id="chk6">NON IT 
+            <input type="checkbox" name="batch" id="chk7">Caree Break
+          </div>
+          <div class="fileds">
+            <label>How You Came To Know us: </label>
+            <input type="checkbox" name="batch" id="chk8">Website  
+            <input type="checkbox" name="batch" id="chk9">Google Search 
+            <input type="checkbox" name="batch" id="chk10">Ads 
+            <input type="checkbox" name="batch" id="chk11">Reference 
+          </div>
+          <div class="fileds">
+            <label for="cp">Contacted Person From Besant Technologies: </label>
+            <input type="text" id="cp">
+          </div>
+        </section>
+        <section class="filed2">
+          <div class="fileds">
+            <label>Are You Interested As Become a Trainer</label>
+            <input type="checkbox" id="yes">Yes 
+            <input type="checkbox" id="no">No
+          </div>
+          <div class="fileds">
+            <div>
+              <label for="domain">Domain</label>
+              <input type="text" id="domain">
+              <label for="yoe">Year Of Experience:</label>
+              <input type="text" id="yoe">
+            </div>
+          </div>
+          <div class="fileds">
+            <label for="cname">Company Name:</label>
+            <input type="text" id="cname">
+          </div>
+        </section>
+        <section class="filed3">
+          <div class="fileds right">
+            Office use only
+          </div>
+          <div class="fileds">
+              <label>Counselor:</label>
+              <input type="text" id="coun">
+              <label for="fee">Fees:</label>
+              <input type="text" id="fee">
+          </div>
+          <div class="fileds">
+            <label for="status">Status:</label>
+            <input type="text" id="status">
+          </div>
+          <div class="fileds">
+            <label for="comment">Comments:</label>
+            <input type="text" id="comment">
+          </div>
+        </section>
+      </div>
+    </form>
   </div>
 </body>
 </html>
